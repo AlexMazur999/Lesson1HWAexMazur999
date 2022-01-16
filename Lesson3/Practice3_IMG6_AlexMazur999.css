@@ -1,0 +1,77 @@
+#container {
+    background: #f2f2f2;
+    height: 600px;
+    width: 400px;
+}
+.A {
+    background: #f2f2f2;
+    width: 378px;
+    height: 260px;
+margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.A1 {
+    background: #246abb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+margin-right: 10px;
+    height: 260px;
+    width: 180px;
+
+}
+.A2 {
+    background: #246abb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    height: 260px;
+    width: 180px;
+}
+.K {
+    background: #246abb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+margin: 10px;
+    height: 150px;
+}
+.B {
+    background: #f2f2f2;
+    width: 376px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+
+}
+.B1 {
+    background: #18467b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 120px;
+margin-right: 10px;
+}
+.B2 {
+    background: #18467b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 120px;
+    margin-right: 10px;
+}
+.B3 {
+    background: #18467b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 120px;
+}
