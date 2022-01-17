@@ -1,0 +1,46 @@
+#container {
+    background: #ffffff;
+    height: 290px;
+    width: 440px;
+    border: 3px solid #9ea09f;
+    border-radius: 20px;
+}
+.A1 {
+    background: #98a2a3;
+    height: 130px;
+    width: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+
+}
+.B {
+    background: #ffffff;
+    height: 130px;
+    width: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+
+}
+.B1 {
+    background: #98a2a3;
+    height: 130px;
+    width: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+
+}
+.B2 {
+    background: #98a2a3;
+    height: 130px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
