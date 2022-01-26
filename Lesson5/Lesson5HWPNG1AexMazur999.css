@@ -1,0 +1,157 @@
+#container {
+    width: 400px;
+    height: 600px;
+    background-color: #e1dbdb;
+    margin: 50px;
+    box-shadow: 10px 10px 10px  black;
+    color: azure;
+    align-items: center;
+    justify-content: center;
+}
+.bgc1 {background-color: #2d2b2b}
+.c001 {
+width: 400px;
+    height: 80px;
+display: flex;
+    border-bottom: 5px solid white;
+
+}
+.c002 {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+
+
+}
+.b002_2 {
+    display: flex;
+    flex-wrap: wrap;
+width: 300px;
+    height: auto;
+}
+.b001_1 {
+    width: 100px;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-right: 5px solid white;
+    background-color: #2d2b2b;
+
+}
+.b001_2 {
+    width: 300px;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: #2d2b2b;
+
+
+}
+.Bath {
+    height: 120px;
+    width: 190px;
+background-color: #2d2b2b;
+align-items: center;
+    justify-content: center;
+    display: flex;
+    border-left: 5px solid white;
+    border-right: 5px solid white;
+}
+.b002_1 {
+    width: 100px;
+    height: 285px;
+    background-color: #2d2b2b;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-bottom: 5px solid white;
+}
+.Ad {
+    width: 100px;
+    height: 120px;
+    background-color: #2d2b2b;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.Types {
+width: 190px;
+    height: 290px;
+    background-color: #2d2b2b;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-left: 5px solid white;
+    border-top: 5px solid white;
+}
+.Rel {
+    height: 290px;
+    background-color: #2d2b2b;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-left: 5px solid white;
+    border-top: 5px solid white;
+    width: 100px;
+}
+.b002_3 {
+    width: 100px;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-top: 290px;
+
+}
+.store, .tools {
+    height: 60px;
+    width: 100px;
+    background-color: #2d2b2b;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.store {
+    border-bottom: 5px solid white;
+}
+.c003 {
+    height: 95px;
+    background-color: #2d2b2b;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-top: 5px solid white;
+}
+@media screen and (min-width: 442px) and (max-width: 768px) {
+#container {
+    height: auto;
+    width: 200px;
+    background-color: aqua;
+    margin: 50px;
+    box-shadow: 10px 10px 10px  black;
+    color: azure;
+    align-items: center;
+    justify-content: center;
+}
+    .b001_1 {        width: 60px; border-right: 0;    }
+.b001_2 { width: 138px; border-left: 2px solid white}
+.coo1 {width: auto}
+.b002_1 {width: 200px; height: 80px}
+.Bath {width: 135px; height: 120px;border-left: 0}
+.Ad {width: 60px; height: 120px}
+.Types {border-left: 0; width: 200px}
+.Rel {width: 200px; height: 120px; border-left: 0}
+.c003 {width: 200px; height: 80px; margin-top: 80px}
+.b002_3 {display: flex; flex-direction: row; margin-top: 625px; border-top: 5px solid white;
+    border-bottom: 5px solid white; width: 200px; height: 80px;
+}
+.store {width: 100px; height: 80px; display: flex; border-bottom: 0}
+.tools {width: 95px; height: 80px; border-left: 5px solid white; display: flex}
+}
+
+
+
+

@@ -1,0 +1,64 @@
+#container {
+    width: 400px;
+    height: 310px;
+    border-radius: 10px;
+    border: solid 2px black;
+margin: 10px;
+    background-color: azure;
+}
+.A {
+    width: 380px;
+    height: 110px;
+    background-color: silver;
+    margin: 10px;
+    margin-bottom: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.B {
+    width: 260px;
+    height: 170px;
+    background-color: silver;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}.C {
+    width: 100px;
+    height: 170px;
+    background-color: silver;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+ .A1 {
+     display: flex;
+ }
+ @media screen and (min-width: 768px) and (max-width: 992px) {
+     #container {
+         width: 300px;
+         background: indianred;
+     }
+     .A {
+         width: auto;
+         height: 90px;
+         border-radius: 10px;
+     }
+     .B {
+         width: auto;
+         height: 90px;
+         border-radius: 10px;
+     }
+     .C {
+         width: auto;
+         height: 90px;
+         border-radius: 10px;}
+     .A1 {
+         display: inline;
+     }
+
+ }

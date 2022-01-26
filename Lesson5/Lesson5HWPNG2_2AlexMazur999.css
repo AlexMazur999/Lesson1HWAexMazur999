@@ -1,0 +1,77 @@
+#container {
+    width: 380px;
+    height: 300px;
+    border-radius: 10px;
+    border: solid 2px black;
+    margin: 5px;
+    background-color: azure;
+}
+.A, .B, .C, .D, .E, .F {
+    background-color: silver;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 5px;
+}
+.A {
+    width: 370px;
+    height: 110px;
+    margin-bottom: 0;
+   }
+.A1 {display: flex;}
+.F {
+    width: 100px;
+    height: 170px;
+}
+.B1 {
+    margin-right: 0;
+}
+.B {
+    width: 260px;
+    height: 80px;
+    }
+.C1{
+    display: flex;
+}
+.C, .D, .E {
+    width: 80px;
+    height: 80px;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    #container {
+        width: 300px;
+        background: indianred;}
+    .A, .B, .C, .D, .E, .F {
+        border-radius: 10px;
+    }
+    .A, .F {
+        width: auto;
+        height: 50px;
+    }
+    .A1 {
+        display: inline;
+    }
+    .B {
+        height: 100px;
+        width: auto;
+    }
+    .C, .D, .E {
+        height: 65px;
+        width: 65px;
+            }
+    .C1 {
+justify-content: space-between;
+    }
+
+
+
+
+
+
+
+
+
+
+}

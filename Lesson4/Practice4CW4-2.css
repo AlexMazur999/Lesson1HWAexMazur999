@@ -1,0 +1,55 @@
+#container {
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+
+}
+.w600 {width: 600px}
+.w100 {width: 100px}
+.w80 {width: 80px}
+.w500 {width: 500px}
+.w300 {width: 300px}
+.w200 {width: 200px}
+.h200 {height: 200px}
+.h150 {height: 160px}
+.h120 {height: 120px}
+.h80 {height: 80px}
+.h40 {height: 40px}
+.h20 {height: 20px}
+.bgc1 {background-color: #ced8e1}
+.bgc2 {background-color: #122d3f}
+.bgc3 {background-color: #2effff}
+.bord2 {border: 2px solid #6496ec;}
+.bordrad5 {border-radius: 5px}
+.bordrad25 {border-radius: 25px}
+.round {border-radius: 50%}
+.marg10 {margin: 10px}
+.margl10 {margin-left: 10px}
+.margr10 {margin-right: 10px}
+.margt10 {margin-top: 10px}
+.margb10 {margin-bottom: 10px}
+.txtcol2 {color: #122d3f}
+.txtcol1 {color: #ced8e1}
+.disflex {display: flex}
+.justcont {justify-content: center}
+.txtend {text-align-last: end}
+.txtc {text-align-last: center}
+.aliit {align-items: center}
+
+.cont1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont3 {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+

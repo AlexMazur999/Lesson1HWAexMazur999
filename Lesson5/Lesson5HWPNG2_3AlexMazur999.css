@@ -1,0 +1,75 @@
+#container {
+    width: 380px;
+    height: 300px;
+    border-radius: 10px;
+    border: solid 2px black;
+    margin: 5px;
+    background-color: azure;
+}
+.A, .B, .C, .D, .E, .F, .G, .H {
+    background-color: silver;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 5px;
+}
+.A {
+    width: 370px;
+    height: 110px;
+}
+.A1 {display: flex;}
+.A0 {
+    display: inline;
+}
+.H {
+    width: 100px;
+    height: 170px;
+}
+.B1 {
+    display: flex;
+}
+.B2 {
+    display: flex;
+}
+.C, .D, .E, .B, .F, .G {
+    width: 80px;
+    height: 80px;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    #container {
+        width: 280px;
+        height: 320px;
+        background: indianred;}
+    .A, .B, .C, .D, .E, .F, .G, .H {
+        border-radius: 10px;
+    }
+    .A {
+        height: 50px;
+        width: auto;
+    }
+    .H {
+        height: 90px;
+        width: auto;
+    }
+.A1 {    display: inline;}
+.B, .C, .D, .E, .F, .G {
+    width: 50px;
+    height: 50px;
+}
+.B1, .B2 {
+    height: 70px;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+}
