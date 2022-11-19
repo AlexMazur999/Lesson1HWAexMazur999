@@ -104,13 +104,14 @@
 // - Створити масив з 10 об'єктами які описують сутніть "користувач". Поля: name, username,password. Вивести в консоль ' +
 // 'пароль кожного користувача
 
-let array = {
-    user1: {name: 'Igor',username: 'Shalenyy', password: 12345},
-    user2: {name: 'Olena',username: 'Kvitka', password: 23456},
-    user3: {name: 'Sasha',username: 'Robik', password: 213456},
-    user4: {name: 'Vasya',username: 'Chel', password: 234456},
-    user5: {name: 'Pipik',username: 'Masterok', password: 234656},
-};
 
-console.log(array)
-console.log(array.user5.password)
+//     let user1= {name: 'Igor',username: 'Shalenyy', password: 12345};
+//     let user2= {name: 'Olena',username: 'Kvitka', password: 23456};
+//     let user3= {name: 'Sasha',username: 'Robik', password: 213456};
+//     let user4= {name: 'Vasya',username: 'Chel', password: 234456};
+//     let user5= {name: 'Pipik',username: 'Masterok', password: 234656};
+//     let arr = [user1, user2, user3, user4, user5]
+//
+//
+// console.log(arr)
+// console.log(arr[4].password)
